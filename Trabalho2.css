@@ -1,0 +1,91 @@
+Body {
+    background: rgb(174, 235, 155)  ;
+    font-size: 125% ;
+    margin: 5%;
+    }
+    header{
+        color: rgb(68, 0, 255);
+        background: rgb(255, 145, 0)  ;
+        text-align: center;
+                
+      }
+      header{
+
+        transition-property: background;
+        transition-duration: 1s;
+        transition-delay: 1s;
+        transition-timing-function: linear;
+    }
+    header:hover{
+    background: white ;}
+    h1{
+      color:blue;
+      transition-property: color, background;
+      transition-duration: 1s;
+      transition-delay: 1s;
+  transition-timing-function: linear;
+  }
+  
+  h1:hover{
+      color: rgb(255, 145, 0);
+      background: blue;
+  }
+
+    section {
+        text-align: center;
+    display: inline-table;
+    width: 47%;
+    border: solid 5px black;
+    height: 300px;
+    padding: 5px;
+    margin: 5px;
+    }
+
+    .center2{
+      width: 120px;
+      height: 80px;
+      margin: 5px;
+    }
+    .frame{
+
+margin-top: 5px;
+height: 460px;
+width: 700px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+background-size: cover;
+}
+.legenda{
+  display: block;
+  text-align: center;
+    }
+  
+    .lado{
+width: 96%;
+height: 96%;
+padding: 5px;
+margin: 5px;
+    }
+    img{
+        width: 20px;
+    }
+footer{
+  text-align: center;
+}
+
+   /*<style>
+    .nav {
+      background-color: rgb(179, 255, 0); 
+      list-style-type: none;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .nav li {
+      display: inline-block;
+      font-size: 20px;
+      padding: 20px;
+    }
+    </style>
