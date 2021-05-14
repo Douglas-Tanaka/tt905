@@ -1,0 +1,106 @@
+Body {
+    background: rgb(0, 0, 0)  ;
+    font-size: 120% ;
+    margin: 10%;
+   
+    
+    }
+    
+    header{
+    color: rgb(179, 255, 0);
+    background: rgb(255, 145, 0)  ;
+    padding-bottom: 20px;
+    text-align: Center;
+    }
+    section {
+    color:rgb(14, 101, 216);
+    background: rgb(0, 0, 0);
+    width: 30%;
+    border: solid 5px rgb(179, 255, 0);
+    height: 500px;
+    padding: 5px;
+    margin: 5px;
+    display: inline-table;
+    }
+.full {
+    color: rgba(9, 51, 105, 0.575);
+    font-size: 150%;
+    width: 95%;
+    padding: 10px;
+    height: 180px;
+    }
+.full:hover{
+    transition-property:color ;
+    transition-delay:0s ;
+    transition-duration:100ms ;
+    transition-timing-function:linear ;
+    color:rgb(0, 96, 223);
+}
+
+
+
+    img{
+    float:right;
+    width:50px;
+    }
+    footer {
+        color:rgb(0, 96, 223);
+        clear: left;
+        }
+    }
+        /*transition*/
+a{
+    color:inherit;
+}
+  a:link{
+    color:rgb(25, 114, 13);
+  }
+a:visited{
+    color:rgb(8, 97, 23);
+}
+  a:hover{
+    color:rgb(205, 0, 144);
+  }
+  a:active{
+    color:rgb(255, 0, 0);
+  }
+ section{
+        transition-property: color, background ;
+        transition-duration: 5s;
+        transition-delay: 1s;
+        transition-timing-function:linear;
+       }
+section :hover {
+    color:rgb(6, 6, 66);
+    background:rgb(105, 255, 255) ;
+
+}
+header{
+
+    transition-property: background;
+    transition-duration: 1s;
+    transition-delay: 1s;
+    transition-timing-function: linear;
+}
+header:hover{
+background: white ;
+}
+h1{
+    color:blue;
+    transition-property: color, background;
+    transition-duration: 1s;
+    transition-delay: 1s;
+transition-timing-function: linear;
+}
+
+h1:hover{
+    color: whitesmoke;
+    background: blue;
+}
+img{
+    transition-property: transform;
+    transition-duration: 5s;
+}
+img:hover{
+    transform: scale(5);
+}
